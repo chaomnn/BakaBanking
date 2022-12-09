@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mobile Banking</string>
+
+    <!--Login screen-->
+    <string name="string_username">Username</string>
+    <string name="string_password">Password</string>
+    <string name="date_from">From</string>
+    <string name="date_to">To</string>
+    <string name="select_date">Select dates to view transaction history:</string>
+    <string name="string_captcha">Captcha</string>
+    <string name="action_sign_in">View History</string>
+    <string name="remember_me">Remember me</string>
+    <string name="logout">Log out</string>
+    <string name="login_failed">Login failed.</string>
+    <string name="captcha_failed">Failed to load captcha.</string>
+    <string name="account_no_error">Failed to fetch account number.</string>
+    <string name="download_error">Failed to download transactions.</string>
+    <string name="transactions">Transactions: </string>
+
+    <!--Transaction types-->
+    <string name="online_purchase">Online purchases</string>
+    <string name="offline_purchase">Shops</string>
+    <string name="deposit">ATM deposit</string>
+    <string name="withdrawal">ATM withdrawal</string>
+    <string name="transfer">Fund Transfer</string>
+    <string name="unknown_transaction">Other</string>
+</resources>

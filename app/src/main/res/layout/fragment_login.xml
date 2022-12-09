@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_username"
+        android:inputType="text"
+        android:selectAllOnFocus="true"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/string_password"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/captcha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/string_captcha"
+        android:imeActionLabel="@string/action_sign_in"
+        android:imeOptions="actionDone"
+        android:selectAllOnFocus="true" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/remember_me"/>
+
+    <ImageView
+        android:id="@+id/captcha_image"
+        android:layout_height="50dp"
+        android:layout_width="130dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reload_captcha"
+        android:src="@drawable/ic_refresh"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/select_date"
+        android:textSize="18sp"
+        />
+
+    <EditText
+        android:id="@+id/date_from"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/date_from"
+        android:inputType="date"
+        android:selectAllOnFocus="true"/>
+
+    <EditText
+        android:id="@+id/date_to"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/date_to"
+        android:inputType="date"
+        android:selectAllOnFocus="true"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="@string/action_sign_in" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:visibility="gone"/>
+
+</LinearLayout>
